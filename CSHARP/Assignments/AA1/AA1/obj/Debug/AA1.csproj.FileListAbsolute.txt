@@ -1,0 +1,7 @@
+C:\Users\swapnat\Desktop\c#\CSHARP\Assignments\AA1\AA1\bin\Debug\AA1.exe.config
+C:\Users\swapnat\Desktop\c#\CSHARP\Assignments\AA1\AA1\bin\Debug\AA1.exe
+C:\Users\swapnat\Desktop\c#\CSHARP\Assignments\AA1\AA1\bin\Debug\AA1.pdb
+C:\Users\swapnat\Desktop\c#\CSHARP\Assignments\AA1\AA1\obj\Debug\AA1.csproj.AssemblyReference.cache
+C:\Users\swapnat\Desktop\c#\CSHARP\Assignments\AA1\AA1\obj\Debug\AA1.csproj.CoreCompileInputs.cache
+C:\Users\swapnat\Desktop\c#\CSHARP\Assignments\AA1\AA1\obj\Debug\AA1.exe
+C:\Users\swapnat\Desktop\c#\CSHARP\Assignments\AA1\AA1\obj\Debug\AA1.pdb
