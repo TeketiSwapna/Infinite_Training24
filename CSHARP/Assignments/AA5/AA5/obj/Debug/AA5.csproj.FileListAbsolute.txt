@@ -1,0 +1,7 @@
+C:\Users\swapnat\Desktop\c#\CSHARP\Assignments\AA5\AA5\obj\Debug\AA5.csproj.AssemblyReference.cache
+C:\Users\swapnat\Desktop\c#\CSHARP\Assignments\AA5\AA5\obj\Debug\AA5.csproj.CoreCompileInputs.cache
+C:\Users\swapnat\Desktop\c#\CSHARP\Assignments\AA5\AA5\bin\Debug\AA5.exe.config
+C:\Users\swapnat\Desktop\c#\CSHARP\Assignments\AA5\AA5\bin\Debug\AA5.exe
+C:\Users\swapnat\Desktop\c#\CSHARP\Assignments\AA5\AA5\bin\Debug\AA5.pdb
+C:\Users\swapnat\Desktop\c#\CSHARP\Assignments\AA5\AA5\obj\Debug\AA5.exe
+C:\Users\swapnat\Desktop\c#\CSHARP\Assignments\AA5\AA5\obj\Debug\AA5.pdb
