@@ -1,0 +1,7 @@
+C:\Users\swapnat\Desktop\c#\CSHARP\Assessments\Cc3\Cc3\bin\Debug\Cc3.exe.config
+C:\Users\swapnat\Desktop\c#\CSHARP\Assessments\Cc3\Cc3\bin\Debug\Cc3.exe
+C:\Users\swapnat\Desktop\c#\CSHARP\Assessments\Cc3\Cc3\bin\Debug\Cc3.pdb
+C:\Users\swapnat\Desktop\c#\CSHARP\Assessments\Cc3\Cc3\obj\Debug\Cc3.csproj.AssemblyReference.cache
+C:\Users\swapnat\Desktop\c#\CSHARP\Assessments\Cc3\Cc3\obj\Debug\Cc3.csproj.CoreCompileInputs.cache
+C:\Users\swapnat\Desktop\c#\CSHARP\Assessments\Cc3\Cc3\obj\Debug\Cc3.exe
+C:\Users\swapnat\Desktop\c#\CSHARP\Assessments\Cc3\Cc3\obj\Debug\Cc3.pdb
