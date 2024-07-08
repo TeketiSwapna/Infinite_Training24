@@ -1,0 +1,7 @@
+C:\Users\swapnat\Desktop\c#\CSHARP\Assignments\AA6\AA6\bin\Debug\AA6.exe.config
+C:\Users\swapnat\Desktop\c#\CSHARP\Assignments\AA6\AA6\bin\Debug\AA6.exe
+C:\Users\swapnat\Desktop\c#\CSHARP\Assignments\AA6\AA6\bin\Debug\AA6.pdb
+C:\Users\swapnat\Desktop\c#\CSHARP\Assignments\AA6\AA6\obj\Debug\AA6.csproj.AssemblyReference.cache
+C:\Users\swapnat\Desktop\c#\CSHARP\Assignments\AA6\AA6\obj\Debug\AA6.csproj.CoreCompileInputs.cache
+C:\Users\swapnat\Desktop\c#\CSHARP\Assignments\AA6\AA6\obj\Debug\AA6.exe
+C:\Users\swapnat\Desktop\c#\CSHARP\Assignments\AA6\AA6\obj\Debug\AA6.pdb

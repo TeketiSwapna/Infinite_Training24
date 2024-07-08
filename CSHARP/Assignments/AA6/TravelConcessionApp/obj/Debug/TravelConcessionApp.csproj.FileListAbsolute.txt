@@ -1,0 +1,13 @@
+C:\Users\swapnat\Desktop\c#\CSHARP\Assignments\AA6\TravelConcessionApp\bin\Debug\TravelConcessionApp.exe.config
+C:\Users\swapnat\Desktop\c#\CSHARP\Assignments\AA6\TravelConcessionApp\bin\Debug\TravelConcessionApp.exe
+C:\Users\swapnat\Desktop\c#\CSHARP\Assignments\AA6\TravelConcessionApp\bin\Debug\TravelConcessionApp.pdb
+C:\Users\swapnat\Desktop\c#\CSHARP\Assignments\AA6\TravelConcessionApp\bin\Debug\AA6.exe
+C:\Users\swapnat\Desktop\c#\CSHARP\Assignments\AA6\TravelConcessionApp\bin\Debug\TravelConcessionLib.dll
+C:\Users\swapnat\Desktop\c#\CSHARP\Assignments\AA6\TravelConcessionApp\bin\Debug\AA6.pdb
+C:\Users\swapnat\Desktop\c#\CSHARP\Assignments\AA6\TravelConcessionApp\bin\Debug\AA6.exe.config
+C:\Users\swapnat\Desktop\c#\CSHARP\Assignments\AA6\TravelConcessionApp\bin\Debug\TravelConcessionLib.pdb
+C:\Users\swapnat\Desktop\c#\CSHARP\Assignments\AA6\TravelConcessionApp\obj\Debug\TravelConcessionApp.csproj.AssemblyReference.cache
+C:\Users\swapnat\Desktop\c#\CSHARP\Assignments\AA6\TravelConcessionApp\obj\Debug\TravelConcessionApp.csproj.CoreCompileInputs.cache
+C:\Users\swapnat\Desktop\c#\CSHARP\Assignments\AA6\TravelConcessionApp\obj\Debug\TravelConcessionApp.csproj.CopyComplete
+C:\Users\swapnat\Desktop\c#\CSHARP\Assignments\AA6\TravelConcessionApp\obj\Debug\TravelConcessionApp.exe
+C:\Users\swapnat\Desktop\c#\CSHARP\Assignments\AA6\TravelConcessionApp\obj\Debug\TravelConcessionApp.pdb

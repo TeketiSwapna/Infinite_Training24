@@ -1,0 +1,6 @@
+C:\Users\swapnat\Desktop\c#\CSHARP\Assignments\AA6\TravelConcessionLib\bin\Debug\TravelConcessionLib.dll
+C:\Users\swapnat\Desktop\c#\CSHARP\Assignments\AA6\TravelConcessionLib\bin\Debug\TravelConcessionLib.pdb
+C:\Users\swapnat\Desktop\c#\CSHARP\Assignments\AA6\TravelConcessionLib\obj\Debug\TravelConcessionLib.csproj.AssemblyReference.cache
+C:\Users\swapnat\Desktop\c#\CSHARP\Assignments\AA6\TravelConcessionLib\obj\Debug\TravelConcessionLib.csproj.CoreCompileInputs.cache
+C:\Users\swapnat\Desktop\c#\CSHARP\Assignments\AA6\TravelConcessionLib\obj\Debug\TravelConcessionLib.dll
+C:\Users\swapnat\Desktop\c#\CSHARP\Assignments\AA6\TravelConcessionLib\obj\Debug\TravelConcessionLib.pdb
