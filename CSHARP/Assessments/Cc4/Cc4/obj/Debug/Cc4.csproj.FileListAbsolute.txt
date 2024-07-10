@@ -1,0 +1,7 @@
+C:\Users\swapnat\Desktop\c#\CSHARP\Assessments\Cc4\Cc4\bin\Debug\Cc4.exe.config
+C:\Users\swapnat\Desktop\c#\CSHARP\Assessments\Cc4\Cc4\bin\Debug\Cc4.exe
+C:\Users\swapnat\Desktop\c#\CSHARP\Assessments\Cc4\Cc4\bin\Debug\Cc4.pdb
+C:\Users\swapnat\Desktop\c#\CSHARP\Assessments\Cc4\Cc4\obj\Debug\Cc4.csproj.AssemblyReference.cache
+C:\Users\swapnat\Desktop\c#\CSHARP\Assessments\Cc4\Cc4\obj\Debug\Cc4.csproj.CoreCompileInputs.cache
+C:\Users\swapnat\Desktop\c#\CSHARP\Assessments\Cc4\Cc4\obj\Debug\Cc4.exe
+C:\Users\swapnat\Desktop\c#\CSHARP\Assessments\Cc4\Cc4\obj\Debug\Cc4.pdb
