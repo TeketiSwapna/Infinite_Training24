@@ -1,0 +1,156 @@
+use Assignments
+ 
+create table Details
+
+(clientno varchar(10),CName varchar(100),propertyNo varchar(10),pAddress varchar(225),rentStart Date,
+
+  rentFinish Date,rent Decimal(10,2),ownerNo varchar(10), OName varchar(100))
+
+-----------------first normal form---------------
+
+--1Nf-------
+
+--Every cell should containt only one attribute
+
+--it increases data integrity
+
+--Data redundancy will be reduced
+ 
+insert into Details values('CR76','john kay','PG4','6 lawrence st.Glasgow','1-jul-00','31-aug-01',350,'CO40','tina murphy'),
+
+                          ('CR76',' john kay','PG16','5 Novar Dr,Glasgow','1-sep-02','1-sep-02',450,'CO93','tony shaw'),
+
+						  ('CR56','aline stewart','PG4','6 lawrence st.Glasgow','1-sep-09','10-jun-00',350,'CO40','tina murphy'),
+
+						  ('CR56','aline stewart','PG36','2 Manor Rd,Glasgow','10-oct-00','1-dec-01',370,'CO93','tona shaw'),
+
+						  ('CR56','aline stewart','PG16','5 Novar Dr,Glasgow','1-nov-02','10-aug-03',4550,'CO93','tony shaw')
+
+select * from Details
+ 
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+---2NF-------
+
+--it has to be in 1st Nf
+
+--the table should not contain partial dependency
+ 
+ 
+Create table ClientDetails (
+
+    clientno Varchar(10) Primary key,
+
+    cName Varchar(100)
+
+)
+ 
+Insert into ClientDetails 
+
+Values ('CR76', 'john kay'),
+
+       ('CR56', 'aline stewart')
+
+select * from ClientDetails
+
+-----------------------------------------------------------------
+ 
+Create table PropertyDetails 
+
+(
+
+    propertyNo Varchar(10) Primary key,
+
+    pAddress Varchar(225)
+
+)
+ 
+Insert into PropertyDetails 
+
+Values ('PG4', '6 lawrence st.Glasgow'),
+
+       ('PG16', '5 Novar Dr,Glasgow'),
+
+       ('PG36', '2 Manor Rd,Glasgow');
+ 
+select * from PropertyDetails
+
+--------------------------------------------------------------------------------------------------------------------
+
+Create Table RentDetails 
+
+(
+
+    clientno Varchar(10),
+
+    propertyNo Varchar(10),
+
+    rentStart Date,
+
+    rentFinish Date,
+
+    rent Decimal(10,2),
+
+    ownerNo Varchar(10),
+
+    OName Varchar(100),
+
+   Primary key (clientno, propertyNo),
+
+    Foreign key (clientno) References ClientDetails(clientno),
+
+    Foreign key (propertyNo) References PropertyDetails(propertyNo)
+
+)
+ 
+Insert into RentDetails 
+
+Values ('CR76', 'PG4', '2000-07-01', '2001-08-31', 350, 'CO40', 'tina murphy'),
+
+       ('CR76', 'PG16', '2002-09-01', '2002-09-01', 450, 'CO93', 'tony shaw'),
+
+       ('CR56', 'PG4', '1999-09-01', '2000-06-10', 350, 'CO40', 'tina murphy'),
+
+       ('CR56', 'PG36', '2000-10-10', '2001-12-01', 370, 'CO93', 'tony shaw'),
+
+       ('CR56', 'PG16', '2002-11-01', '2003-08-10', 450, 'CO93', 'tony shaw');
+ 
+select * from RentDetails
+ ---3NF------------------------- 
+ ---we need to eliminate transitive dependencies
+ Create Table ClientDetailss ( clientno Varchar(10) PRIMARY KEY, cName Varchar(100) )
+ Insert Into ClientDetailss values ('CR76', 'john kay'), ('CR56', 'aline stewart'); 
+ select * from ClientDetailss 
+ --------------------------------
+ Create table PropertyDetailss ( propertyNo Varchar(10) Primary key, pAddress Varchar(225) ) 
+ Insert into PropertyDetailss Values ('PG4', '6 lawrence st.Glasgow'),
+                                     ('PG16', '5 Novar Dr,Glasgow'), 
+                                     ('PG36', '2 Manor Rd,Glasgow'); 
+select * from PropertyDetailss 
+-----------------------------------------------------------									
+Create Table OwnerDetails ( ownerNo Varchar(10) PRIMARY KEY, OName Varchar(100) ) 
+Insert Into OwnerDetails values ('CO40', 'tina murphy'),
+                                ('CO93', 'tony shaw'); 
+select * from OwnerDetails 
+-----------------------------------------------------------
+CREATE TABLE RentDetailss( clientno Varchar(10), propertyNo Varchar(10), 
+                     rentStart Date, rentFinish Date, rent Decimal(10,2), 
+                     ownerNo Varchar(10), PRIMARY KEY (clientno, propertyNo), 
+                    FOREIGN KEY (clientno) REFERENCES ClientDetails(clientno), 
+                    FOREIGN KEY (propertyNo) REFERENCES PropertyDetails(propertyNo), 
+                    FOREIGN KEY (ownerNo) REFERENCES OwnerDetails(ownerNo) ); 
+Insert Into RentDetailss values('CR76', 'PG4', '2000-07-01', '2001-08-31', 350.00, 'CO40'), 
+                               ('CR76', 'PG16', '2002-09-01', '2002-09-01', 450.00, 'CO93'), 
+                               ('CR56', 'PG4', '2009-09-01', '2000-06-10', 350.00, 'CO40'), 
+                               ('CR56', 'PG36', '2000-10-10', '2001-12-01', 370.00, 'CO93'),
+                               ('CR56', 'PG16', '2002-11-01', '2003-08-10', 450.00, 'CO93');
+select * from RentDetailss 
+------------------------------------------------------------------------------ 
+CREATE TABLE RentOwner ( clientno Varchar(10), propertyNo Varchar(10), ownerNo Varchar(10),
+                   PRIMARY KEY (clientno, propertyNo, ownerNo), FOREIGN KEY (clientno, propertyNo) 
+                   REFERENCES RentDetails(clientno, propertyNo), FOREIGN KEY (ownerNo) 
+                   REFERENCES OwnerDetails(ownerNo) ); 
+Insert Into RentOwner values ('CR76', 'PG4', 'CO40'), 
+                             ('CR76', 'PG16', 'CO93'), ('CR56', 'PG4', 'CO40'), 
+                             ('CR56', 'PG36', 'CO93'), ('CR56', 'PG16', 'CO93'); 
+select * from RentOwner
