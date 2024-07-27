@@ -1,0 +1,7 @@
+C:\Users\swapnat\Desktop\c#\ADO\Assignment\Linq_Assignment1\Linq_Assignment1\obj\Debug\Linq_Assignment1.csproj.AssemblyReference.cache
+C:\Users\swapnat\Desktop\c#\ADO\Assignment\Linq_Assignment1\Linq_Assignment1\obj\Debug\Linq_Assignment1.csproj.CoreCompileInputs.cache
+C:\Users\swapnat\Desktop\c#\ADO\Assignment\Linq_Assignment1\Linq_Assignment1\bin\Debug\Linq_Assignment1.exe.config
+C:\Users\swapnat\Desktop\c#\ADO\Assignment\Linq_Assignment1\Linq_Assignment1\bin\Debug\Linq_Assignment1.exe
+C:\Users\swapnat\Desktop\c#\ADO\Assignment\Linq_Assignment1\Linq_Assignment1\bin\Debug\Linq_Assignment1.pdb
+C:\Users\swapnat\Desktop\c#\ADO\Assignment\Linq_Assignment1\Linq_Assignment1\obj\Debug\Linq_Assignment1.exe
+C:\Users\swapnat\Desktop\c#\ADO\Assignment\Linq_Assignment1\Linq_Assignment1\obj\Debug\Linq_Assignment1.pdb
