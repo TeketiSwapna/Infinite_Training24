@@ -1,0 +1,12 @@
+C:\Users\swapnat\Desktop\c#\MINI_PROJECT\RailwayReservation\RailwayReservation\obj\Debug\RailwayReservation.csproj.AssemblyReference.cache
+C:\Users\swapnat\Desktop\c#\MINI_PROJECT\RailwayReservation\RailwayReservation\obj\Debug\RailwayReservation.csproj.CoreCompileInputs.cache
+C:\Users\swapnat\Desktop\c#\MINI_PROJECT\RailwayReservation\RailwayReservation\bin\Debug\RailwayReservation.exe.config
+C:\Users\swapnat\Desktop\c#\MINI_PROJECT\RailwayReservation\RailwayReservation\bin\Debug\RailwayReservation.exe
+C:\Users\swapnat\Desktop\c#\MINI_PROJECT\RailwayReservation\RailwayReservation\bin\Debug\RailwayReservation.pdb
+C:\Users\swapnat\Desktop\c#\MINI_PROJECT\RailwayReservation\RailwayReservation\bin\Debug\EntityFramework.dll
+C:\Users\swapnat\Desktop\c#\MINI_PROJECT\RailwayReservation\RailwayReservation\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\swapnat\Desktop\c#\MINI_PROJECT\RailwayReservation\RailwayReservation\bin\Debug\EntityFramework.xml
+C:\Users\swapnat\Desktop\c#\MINI_PROJECT\RailwayReservation\RailwayReservation\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\swapnat\Desktop\c#\MINI_PROJECT\RailwayReservation\RailwayReservation\obj\Debug\RailwayReservation.csproj.CopyComplete
+C:\Users\swapnat\Desktop\c#\MINI_PROJECT\RailwayReservation\RailwayReservation\obj\Debug\RailwayReservation.exe
+C:\Users\swapnat\Desktop\c#\MINI_PROJECT\RailwayReservation\RailwayReservation\obj\Debug\RailwayReservation.pdb
